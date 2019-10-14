@@ -23,3 +23,28 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+figure:nth-child(3) {
+  z-index: 2;
+  position: relative;
+  top: -18px;
+  left: 300px;
+}
+
+figure:nth-child(2) {
+  z-index: 3;
+  position: relative;
+  top: -18px;
+  left: 300px;
+}
+
+figure:nth-child(1) {
+  z-index: 1;
+  position: relative;
+  top: -18px;
+  left: 300px;
+}
+
+.polaroid:hover {
+  z-index: 1000;
+}
