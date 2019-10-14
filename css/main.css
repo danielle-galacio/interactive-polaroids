@@ -13,6 +13,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
+  transition: all 250ms linear;
 }
 
 .polaroid > img {
@@ -42,7 +43,6 @@ figure:nth-child(2) {
   position: relative;
   top: -12px;
   left: 290px;
-  transform: translate(1px);
   transform: rotate(5deg);
 }
 
@@ -56,4 +56,6 @@ figure:nth-child(1) {
 
 .polaroid:hover {
   z-index: 1000;
+  transform: rotate(0deg);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
